@@ -1,0 +1,129 @@
+    @import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@200;300;400;600;700&display=swap');
+body{
+    box-sizing: border-box;
+    font-family: 'Readex Pro', sans-serif;
+    position: relative;
+    background-color: gray;
+}
+.container{
+    height:350px;
+    width:750px;
+    position: relative;
+    justify-content: center;
+    background-color: white;
+    margin:auto;
+    padding-top: 30px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+.top{
+    position: relative;
+    width: 750;
+    height: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.name{
+    display:block;
+    position: relative;
+    max-height: 65px;
+    padding: 1px 0px 5px 7px;
+    margin: -60px 53px;
+
+
+}
+.name h3{
+    position: relative;
+    margin: 4px 1px;
+    font-weight: bold;
+    padding: 2px 0px;
+    font-size: 24px;
+}
+.name h5{
+    position: absolute;
+    margin: -7px 1px;
+    color: darkgray;
+    font-size: 14px;
+    font-weight: 300;
+
+}
+.top img{
+    height: 50px;
+    aspect-ratio: 1;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.name h3 img{
+    height: 20px;
+    position: absolute;
+    margin: 5px 6px;
+} 
+button{
+    background-color:#329CC3;
+    border-radius: 30px;
+    height: 40px;
+    color: white;
+    width: 150px;
+    font-weight:bolder;
+    margin: 24px 512px;
+    border: none;
+    font-size: 18px;
+}
+button:hover{
+    background-color: white;
+    color: #329CC3;
+    border: solid #329CC3 ;
+}
+.follow{
+    position: relative;
+}
+.follow img{
+    position: absolute;
+    margin: -70px 665px;
+}
+.textArea{
+    padding: 1px 25px 20px 70px;
+    margin-top: -20px;
+}
+.textArea p{
+    font-weight: normal;
+    font-size: 33px;
+    color: darkslategray;
+}
+.textArea h4{
+    font-weight: 300;
+    color: slategrey;
+    margin-top: -20px;
+    font-size: 18px;
+}
+.textArea hr{
+    margin-top: -10px;
+    border:1px solid #E6ECF0;
+}
+.foot{
+    display: flex;
+}
+.foot p{
+    font-size: 18px;
+    color: darkslategray;
+    font-weight: bolder;
+    margin-right: 6px;
+    margin-top: 3px;
+    margin-left: 8;
+}
+.foot h4{
+    margin-top: 4px;
+}
+.footpic {
+    display: flex;
+    margin-left: 20px;
+    border-left: solid #E6ECF0;
+
+}
+.footpic div[class]{
+    height: 30px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    background-color: blue;
+    margin-left:6px;
+}
