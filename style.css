@@ -124,6 +124,32 @@ button:hover{
     height: 30px;
     aspect-ratio: 1;
     border-radius: 50%;
-    background-color: blue;
     margin-left:6px;
+}
+.a{
+    background-color: red;
+}
+.b{
+    background-color: orange;
+}
+.c{
+    background-color: yellow;
+}
+.d{
+    background-color: green;
+}
+.e{
+    background-color: blue;
+}
+.f{
+    background-color: indigo;
+}
+.g{
+    background-color: violet;
+}
+.h{
+    background-color: black;
+}
+.i{
+    background-color: coral;
 }
